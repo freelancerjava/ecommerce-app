@@ -1,0 +1,17 @@
+@import '../../styles/mixins';
+
+.home-login-form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .login-form-button{
+        width: 100%;
+    }
+
+    .error{
+        color: #ff0000;
+    }
+
+}

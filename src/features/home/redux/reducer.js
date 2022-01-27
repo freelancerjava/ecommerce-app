@@ -1,6 +1,13 @@
 import initialState from './initialState';
+import tokenReducer from './getTokenSlice'
+import productsReducer from './productsSlice'
+import searchReducer from './searchSlice';
+
 
 const reducers = [
+  tokenReducer,
+  productsReducer,
+  searchReducer
 ];
 
 export default function reducer(state = initialState, action) {

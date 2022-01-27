@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "@babel/core": "^7.4.3",
+    "@reduxjs/toolkit": "^1.7.1",
     "@svgr/webpack": "2.4.1",
+    "antd": "^4.18.5",
     "axios": "^0.18.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "9.0.0",
@@ -53,6 +55,7 @@
     "react-app-polyfill": "^0.2.0",
     "react-dev-utils": "^7.0.1",
     "react-dom": "^16.8.6",
+    "react-highlight-words": "^0.17.0",
     "react-hot-loader": "^4.12.12",
     "react-redux": "^7.1.1",
     "react-router-dom": "^5.0.1",
@@ -71,7 +74,7 @@
     "workbox-webpack-plugin": "3.6.3"
   },
   "scripts": {
-    "start": "cross-env PORT=3100 node scripts/start.js",
+    "start": "cross-env PORT=3101 node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
   },

@@ -20,8 +20,18 @@
     position: relative;
   }
 
+  .nav-menu{
+    display: flex;
+    justify-content: space-around;
+    // width: 100%;
+    ul{
+      width: 50%;
+    }
+  }
+
   .app-title {
     font-size: 1.5em;
+    color: #ffffff;
   }
 
   .app-intro {

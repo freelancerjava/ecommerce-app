@@ -1,6 +1,13 @@
 import { WelcomePage } from './';
+import LoginForm from './LoginForm';
+import Products from './Products';
+import SearchProducts from './SearchProducts';
 
 export default {
   path: '',
-  childRoutes: [{ path: 'welcome-page', component: WelcomePage, isIndex: true }],
+  component: WelcomePage,
+  childRoutes: [
+    { path:'products', component: Products, isIndex: true},
+    { path:'search', component: SearchProducts}
+  ],
 };
